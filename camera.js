@@ -1,0 +1,1 @@
+var cameraX = 0;
