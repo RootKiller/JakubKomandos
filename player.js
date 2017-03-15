@@ -69,13 +69,13 @@ class Player
 		cameraX = this.x - 50;
 
 		this.y += this.vy * delta;
-		this.vy += 9.81;
+		this.vy += 20;
 		this.isOnGround = this.y + this.h > GROUND_START;
 
 		if (this.doJump && this.isOnGround) {
 			this.isOnGround = false;
 
-			this.vy = -350.0;
+			this.vy = -550.0;
 		}
 
 		if (this.isOnGround) {
