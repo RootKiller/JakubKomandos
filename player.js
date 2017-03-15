@@ -43,8 +43,8 @@ class Player
 	{
 		//this.goLeft = isKeyPressed(65) || isKeyPressed(37); // A | left
 		this.goRight = isKeyPressed(68) || isKeyPressed(39); // D | right
-		this.doShot = isKeyPressed(32); // space
-		this.doJump = isKeyPressed(16); // left shift
+		this.doShot = isMouseButtonPressed(0); // left mouse button
+		this.doJump = isKeyPressed(32); // left shift
 		this.doCrouch = isKeyPressed(17); // left control
 	}
 
